@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&display=swap');
+
+* {
+    background-color: light-grey;
+    font-family: 'Orbitron', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5em;
+    gap: 2em;
+    height: 100vh;
+}
+
+.title {
+    font-size: 2em;
+    color: #A83265;
+}
+
+.time {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+.min {
+    font-size: 4em;
+}
+
+.sec {
+    font-size: 4em;
+}
+
+.separator {
+    font-size: 4em;
+    color: grey
+}
+
+.mili {
+    font-size: 2em;
+    padding-top: 0.8em;
+}
+
+.container span {
+    color: grey
+}
+
+.container .m {
+    font-size: 0.5em;
+}
+
+.btn {
+    display: flex;
+    flex-direction: columns;
+    gap: 1em;
+}
+
+button {
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+.start {
+    background-color: #A83265;
+    padding: 0.7em;
+    border: 0.1em solid transparent;
+    border-radius: 1em;
+    color: white;
+    font-size: 1.1em;
+}
+
+.pause {
+    background-color: black;
+    padding: 0.7em;
+    border: 0.1em solid transparent;
+    border-radius: 1em;
+    color: #CD769C;
+    font-size: 1.1em;
+}
+
+.resume {
+    background-color: #CD769C;
+    padding: 0.7em;
+    border: 0.1em solid transparent;
+    border-radius: 1em;
+    color: black;
+    font-size: 1.1em;
+}
+
+.reset {
+    background-color: white;
+    padding: 0.7em;
+    border: 0.1em solid grey;
+    border-radius: 1em;
+    color: black;
+    font-size: 1.1em;
+    margin-right: 1em;
+}
+
+#pauseBtn {
+    display: none;
+}
+
+#resumeBtn {
+    display: none;
+}
